@@ -5,6 +5,5 @@ const getUsersWithFriend = (users, friendName) => {
     .filter(user => user.friends.includes(friendName))
     .map(user => user.name);
 };
-console.log(users.filter);
 console.log(getUsersWithFriend(users, 'Briana Decker')); // [ 'Sharlene Bush', 'Sheree Anthony' ]
 console.log(getUsersWithFriend(users, 'Goldie Gentry')); // [ 'Elma Head', 'Sheree Anthony' ]
